@@ -30,14 +30,13 @@ build:
     - script:
         name: go get
         code: |
-          go get github.com/keevi7c3l/Tigo/...
+          go get
 
     # Build the project
     - script:
         name: go build
         code: |
-          cd $WERCKER_SOURCE_DIR\demo\HelloWorld
-          go build ./...
+          go build
 
     # Test the project
     - script:
