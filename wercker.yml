@@ -31,6 +31,7 @@ build:
         name: go get
         code: |
           go get github.com/karldoenitz/Tigo/...
+          go get -u github.com/keevi7c3l/Tigo
 
     # Build the project
     - script:
