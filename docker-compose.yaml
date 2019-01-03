@@ -1,0 +1,7 @@
+version: '2'
+services:
+  Tigo:
+    image: keevi7c3l/Tigo:187d380
+    container_name: test-go-restful-server
+    ports:
+      - 8080:8080
